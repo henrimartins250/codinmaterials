@@ -51,3 +51,15 @@ for indic, listo in enumerate(listat):
        print(indic, listo)
 
 #-----------------------------------------------------------------------------------  
+
+
+lista = [37, 68, 7, 546, 572, 876, 98]
+
+max = int(0)
+
+for indic, listo in enumerate(lista):
+  if listo > max:
+    max = listo
+    max_indic = indic
+
+print(max, max_indic)
