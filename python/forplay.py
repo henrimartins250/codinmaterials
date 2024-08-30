@@ -63,3 +63,31 @@ for indic, listo in enumerate(lista):
     max_indic = indic
 
 print(max, max_indic)
+
+#--------------------------------------------------------------------------------------
+
+frotas = ["bananya", "laranjya", "kiywa", "umbuya"]
+
+for posicao, fruta in enumerate(frotas):
+  print(posicao, fruta)
+
+
+
+#------------------------------------------------------------------------------------------
+
+
+
+amigos = ["ian", "rafael", "enrico"]
+
+for indice, amigo in enumerate(amigos):
+  print(indice, amigo)
+
+
+
+#------------------------------------------------------------------------------------------------
+
+
+jogos = ["cod", "gow", "lol"]
+notas = [9, 7, 3]
+for i, jogo in enumerate(jogos):    
+  print(jogo, notas[i])
