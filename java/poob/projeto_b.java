@@ -1,5 +1,5 @@
-package poo_x;
-public class Poo_X {
+package projeto_b;
+public class Projeto_b {
  public static void main(String[] args) {
  Aluno aluno1 = new Aluno();
  
