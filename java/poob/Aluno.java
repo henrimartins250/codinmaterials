@@ -1,4 +1,4 @@
-package poo_x;
+package projeto_b;
 public class Aluno extends Usuario {
  private String curso;
  private int serie;
