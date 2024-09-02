@@ -1,4 +1,4 @@
-package poo_x;
+package projeto_b;
 public class Usuario {
  private String login;
  private int senha;
