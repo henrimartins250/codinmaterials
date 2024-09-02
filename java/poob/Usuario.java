@@ -1,23 +1,34 @@
-
-package com.mycompany.projeto_b;
+package poo_x;
 public class Usuario {
-    private String login;
+ private String login;
  private int senha;
  private String nome;
- private String email;
- public Usuario(String login, int senha, String nome, String email) {
+ private int idade;
+ public Usuario(String login, int senha, String nome, int idade) {
  this.login = login;
  this.senha = senha;
  this.nome = nome;
- this.email = email;
+ 
+ if(idade <18){
+ this.idade = 0;
+ } else {
+ this.idade = idade; 
  }
+ }
+ 
  public Usuario(){
- this.login = "";
- this.senha = 0;
- this.nome = "";
- this.email = "";
  }
-
+ 
+ public int getIdade() {
+ return idade;
+ }
+ public void setIdade(int idade) {
+ if(idade <18){
+ this.idade = 0;
+ } else {
+ this.idade = idade; 
+ }
+ }
  public String getLogin() {
  return login;
  }
@@ -36,19 +47,11 @@ public class Usuario {
  public void setNome(String nome) {
  this.nome = nome;
  }
- public String getEmail() {
- return email;
- }
- public void setEmail(String email) {
- this.email = email;
- }
-
  public void verDados(){
- System.out.println("\n----------------------------------");
+ System.out.println("===============================-");
  System.out.println("Nome: "+this.getNome());
  System.out.println("Login: "+this.getLogin());
  System.out.println("Senha: "+this.getSenha());
- System.out.println("E-mail: "+this.getEmail());
- }
+ System.out.println("Idade: "+this.getIdade());
+ } 
 }
-
