@@ -1,4 +1,4 @@
-package poo_x;
+package projeto_b;
 public class Professor extends Usuario{
  private String formacao;
  private double hora_aula;
