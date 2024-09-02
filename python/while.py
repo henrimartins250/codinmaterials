@@ -9,7 +9,7 @@ while d == False:
       par.append(nue)
     else:
       d = True
-while d == rue:
+while d == True:
   for nue in omg:
     if (nue % 2) == 1:
       impar.append(nue)
@@ -18,7 +18,7 @@ while d == rue:
 print(par)
 print(impar)
 
------------------------------------------------
+#-----------------------------------------------
 
 nimirus = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 meno = int(1)
